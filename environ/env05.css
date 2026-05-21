@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d8f3dc;
+}
+
+#environment {
+    width: 80%;
+    min-height: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #b7e4c7;
+    transition: 0.5s;
+}
+
+h1 {
+    color: #1b4332;
+}
+
+#description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#tree {
+    font-size: 90px;
+    margin: 20px;
+}
+
+#character {
+    font-size: 70px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+#mood-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #40916c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d6a4f;
+}
+
+.day-mode {
+    background-color: #b7e4c7;
+    color: #1b4332;
+}
+
+.night-mode {
+    background-color: #081c15;
+    color: white;
+}
+
+.night-mode h1 {
+    color: #d8f3dc;
+}
+
+.night-mode button {
+    background-color: #52b788;
+}
