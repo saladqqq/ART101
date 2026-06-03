@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Environment 06: Stray Animal Night</title>
+  <link rel="stylesheet" href="env06.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="env06.js" defer></script>
+</head>
+
+<body>
+  <main id="environment">
+    <h1>Stray Animal Night</h1>
+    <p id="instructions">
+      Click the food bowl, hover over the cat, press Space to turn on the streetlight, and move your mouse through the night.
+    </p>
+
+    <section id="night-scene">
+      <div id="moon">moon</div>
+      <div id="streetlight"></div>
+
+      <div id="cat" class="animal">
+        cat
+        <div id="cat-message">I am scared, but I am still here.</div>
+      </div>
+
+      <div id="dog" class="animal">dog</div>
+      <div id="food-bowl">food</div>
+      <div id="sparkle"></div>
+    </section>
+
+    <p id="environment-status">The street is quiet.</p>
+  </main>
+</body>
+
+</html>
